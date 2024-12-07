@@ -1,0 +1,6 @@
+services:
+  demo-app:
+    build: ./
+    volumes:
+      - ./:/src
+    tty: true
